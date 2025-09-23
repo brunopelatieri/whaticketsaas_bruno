@@ -40,7 +40,7 @@ const App = () => {
                 },
                 "&::-webkit-scrollbar-thumb": {
                     boxShadow: 'inset 0 0 6px rgba(0, 0, 0, 0.3)',
-                    backgroundColor: "#8B5CF6",
+                    backgroundColor: "#2e4e94",
 					borderRadius: "8px",
                 },
             },
@@ -57,7 +57,7 @@ const App = () => {
             palette: {
                 type: mode,
                 primary: { main: mode === "light" ? "#2e4e94" : "#FFFFFF" },
-                quicktags: { main: mode === "light" ? "#2e4e94" : "#8B5CF6" },
+                quicktags: { main: mode === "light" ? "#2e4e94" : "#2e4e94" },
                 sair: { main: mode === "light" ? "#2e4e94" : "#1A1A1A" },
                 vcard: { main: mode === "light" ? "#1e3361" : "#2D2D2D" },
                 textPrimary: mode === "light" ? "#1e3361" : "#FFFFFF",

@@ -260,8 +260,8 @@ const useStyles = makeStyles((theme) => ({
     justifyContent: "center",
     backgroundColor: "inherit",
     padding: 10,
-    backgroundColor: theme.mode === 'light' ? '#8B5CF6' : '#1c1c1c',
-    color: theme.mode === 'light' ? '#8B5CF6' : '#FFF',
+    backgroundColor: theme.mode === 'light' ? '#2e4e94' : '#1c1c1c',
+    color: theme.mode === 'light' ? '#2e4e94' : '#FFF',
   },
   scrollToBottomButton: {
     position: "absolute",
@@ -701,13 +701,13 @@ const MessagesList = ({ ticket, ticketId, isGroup, onMessagesLoad }) => {
     href={message.quotedMsg.mediaUrl}
     target="_blank"
     sx={(theme) => ({
-      borderColor: theme.palette.mode === 'light' ? '#8B5CF6' : '#FFF',
-      color: theme.palette.mode === 'light' ? '#8B5CF6' : '#FFF',
-      backgroundColor: theme.palette.mode === 'light' ? '#8B5CF610' : '#1c1c1c',
+      borderColor: theme.palette.mode === 'light' ? '#2e4e94' : '#FFF',
+      color: theme.palette.mode === 'light' ? '#2e4e94' : '#FFF',
+      backgroundColor: theme.palette.mode === 'light' ? '#2e4e9410' : '#1c1c1c',
       '&:hover': {
-        backgroundColor: theme.palette.mode === 'light' ? '#8B5CF620' : '#333',
-        borderColor: theme.palette.mode === 'light' ? '#8B5CF6' : '#FFF',
-        color: theme.palette.mode === 'light' ? '#8B5CF6' : '#FFF',
+        backgroundColor: theme.palette.mode === 'light' ? '#2e4e9420' : '#333',
+        borderColor: theme.palette.mode === 'light' ? '#2e4e94' : '#FFF',
+        color: theme.palette.mode === 'light' ? '#2e4e94' : '#FFF',
       }
     })}
   >
