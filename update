@@ -1,14 +1,14 @@
 #!/bin/bash
 echo "Atualizando o Whaticket, por favor aguarde."
 
-git pull
-cd backend
+#git pull
+cd /home/deploy/brunoia/backend
 npm install
 rm -rf dist
 npm run build
 npx sequelize db:migrate
 npx sequelize db:seed
-cd ../frontend
+cd /home/deploy/brunoia/frontend
 npm install
 rm -rf build
 npm run build
