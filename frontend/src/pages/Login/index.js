@@ -79,7 +79,7 @@ const useStyles = makeStyles((theme) => ({
     '& img': {
       width: '70%',
       height: 'auto',
-      filter: 'brightness(0) invert(1)',
+      // filter: 'brightness(0) invert(1)',
     }
   },
   formTitle: {
