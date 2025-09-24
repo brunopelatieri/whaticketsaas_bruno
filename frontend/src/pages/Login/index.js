@@ -39,8 +39,8 @@ const useStyles = makeStyles((theme) => ({
       right: 0,
       height: '50vh',
       background: theme.palette.primary.dark, // Usando primary.dark
-      borderBottomLeftRadius: '50% 20%',
-      borderBottomRightRadius: '50% 20%',
+      borderBottomLeftRadius: '50% 0%',
+      borderBottomRightRadius: '50% 0%',
       zIndex: 0,
     }
   },

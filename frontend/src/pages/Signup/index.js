@@ -459,7 +459,7 @@ const SignUp = () => {
           </Typography>
         </div>
 
-        <div className={classes.formContainer}>
+        <div className={classes.formContainer} style={{ background:'none' }}>
           <Stepper activeStep={activeStep} className={classes.stepper}>
             {steps.map((label, index) => (
               <Step key={label}>
