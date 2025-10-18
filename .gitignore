@@ -1,3 +1,6 @@
+#bin/bash update not tracked
+update
+
 .code-workspace
 # Logs
 logs
